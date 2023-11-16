@@ -9,7 +9,7 @@ print-%: FORCE
 ACLOCAL_AMFLAGS = -I build-aux/m4
 SUBDIRS = src
 if ENABLE_MAN
-SUBDIRS += doc/man
+SUBDIRS += doc/manild-aux/m4
 endif
 .PHONY: deploy FORCE
 .INTERMEDIATE: $(COVERAGE_INFO)
